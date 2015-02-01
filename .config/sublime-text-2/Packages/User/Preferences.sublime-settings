@@ -1,8 +1,9 @@
 {
-	"ignored_packages": [
-		"Vintage"
-	],
 	"font_face": "",
 	"font_size": 12,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
 	"save_on_focus_lost": true
 }

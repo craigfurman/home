@@ -10,6 +10,7 @@
 	],
 	"installed_packages":
 	[
+		"Dockerfile Syntax Highlighting",
 		"Git",
 		"GoSublime",
 		"Package Control",
