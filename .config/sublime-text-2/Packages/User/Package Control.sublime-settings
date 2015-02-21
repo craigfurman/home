@@ -7,7 +7,9 @@
 		"Dockerfile Syntax Highlighting",
 		"Git",
 		"GoSublime",
+		"JsFormat",
 		"Package Control",
+		"SCSS",
 		"VCS Gutter"
 	]
 }
