@@ -51,7 +51,8 @@ plugins=(git chruby go sublime)
 
 # Go
 export GOPATH=$HOME/go
-export PATH=/usr/local/go/bin:$GOPATH/bin:$PATH
+export GOROOT=$HOME/golang
+export PATH=$GOROOT/bin:$GOPATH/bin:$PATH
 
 source $ZSH/oh-my-zsh.sh
 
