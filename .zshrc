@@ -84,3 +84,5 @@ export EDITOR=vim
 # Example aliases
 alias ll="ls -laH"
 alias clip='xclip -sel clip'
+
+eval "$(direnv hook zsh)"
