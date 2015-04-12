@@ -86,3 +86,4 @@ alias ll="ls -laH"
 alias clip='xclip -sel clip'
 
 eval "$(direnv hook zsh)"
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
