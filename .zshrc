@@ -85,5 +85,8 @@ export EDITOR=vim
 alias ll="ls -laH"
 alias clip='xclip -sel clip'
 
+# Shell options
+setopt interactivecomments
+
 eval "$(direnv hook zsh)"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
