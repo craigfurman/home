@@ -84,6 +84,7 @@ export EDITOR=vim
 alias ll="ls -laH"
 alias clip='xclip -sel clip'
 alias tmux="tmux -2"
+alias idea="/opt/intellij/bin/idea.sh > /dev/null 2>&1 &|"
 
 # Shell options
 setopt interactivecomments
