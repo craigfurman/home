@@ -59,6 +59,9 @@ source $ZSH/oh-my-zsh.sh
 # Ruby
 chruby ruby-2.2.2
 
+# Binaries
+export PATH=/usr/lib/chromium-browser:$PATH
+
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
