@@ -84,7 +84,7 @@ export EDITOR=vim
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 
-alias ll="ls -laH"
+alias ll="ls -laHh"
 alias clip='xclip -sel clip'
 alias tmux="tmux -2"
 alias idea="/opt/intellij/bin/idea.sh > /dev/null 2>&1 &|"
