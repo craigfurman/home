@@ -1,0 +1,25 @@
+"*":
+  "exception-reporting":
+    userId: "9ea00bc3-8b6e-0080-5d5c-45abcb2994c8"
+  welcome:
+    showOnStartup: false
+  core: {}
+  editor:
+    invisibles: {}
+    fontSize: 18
+    backUpBeforeSaving: true
+    fontFamily: "Inconsolata"
+  "atom-beautify":
+    css_newline_between_rules: true
+    css_preserve_newlines: true
+    css_selector_separator_newline: true
+    html_end_with_newline: true
+    language_go_beautify_on_save: true
+    language_html_beautify_on_save: true
+    language_css_beautify_on_save: true
+    language_js_beautify_on_save: true
+    language_json_beautify_on_save: true
+    language_ruby_beautify_on_save: true
+    _analyticsUserId: "d204febf-1a64-4d12-a2b1-4822a9190f70"
+  autosave:
+    enabled: true
