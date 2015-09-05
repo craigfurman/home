@@ -1,4 +1,12 @@
 packages: [
   "atom-beautify"
+  "color-picker"
+  "emmet"
+  "go-plus"
+  "highlight-selected"
+  "language-docker"
+  "last-cursor-position"
+  "monokai"
   "package-sync"
+  "save-session"
 ]
