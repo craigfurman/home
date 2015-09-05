@@ -1,5 +1,6 @@
 packages: [
   "atom-beautify"
+  "atom-bootstrap3"
   "color-picker"
   "emmet"
   "go-plus"
