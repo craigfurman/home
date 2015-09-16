@@ -26,6 +26,7 @@
     language_json_beautify_on_save: true
     language_ruby_beautify_on_save: true
     _analyticsUserId: "d204febf-1a64-4d12-a2b1-4822a9190f70"
+    js_end_with_newline: true
   autosave:
     enabled: true
   "autocomplete-plus": {}
@@ -35,3 +36,5 @@
     dataSaveFolder: "/home/craig/.atom/packages/save-session/projects"
   "highlight-selected":
     highlightBackground: true
+  whitespace: {}
+  "linter-jshint": {}

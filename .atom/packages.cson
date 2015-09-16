@@ -7,6 +7,7 @@ packages: [
   "highlight-selected"
   "language-docker"
   "last-cursor-position"
+  "linter-jshint"
   "monokai"
   "package-sync"
   "save-session"
