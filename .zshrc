@@ -57,7 +57,7 @@ export PATH=$GOROOT/bin:$GOPATH/bin:$PATH
 source $ZSH/oh-my-zsh.sh
 
 # Ruby
-chruby ruby-2.2.2
+chruby ruby-2.2.3
 
 # Binaries
 export PATH=/usr/lib/chromium-browser:$PATH
