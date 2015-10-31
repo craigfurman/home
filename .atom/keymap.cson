@@ -26,5 +26,12 @@
 # Atom Flight Manual:
 # https://atom.io/docs/latest/using-atom-basic-customization#cson
 
+'atom-workspace atom-text-editor:not(.mini)':
+  'ctrl-alt-f': 'find-and-replace:show-replace'
+  'ctrl-h': 'find-and-replace:show-replace'
+
 'atom-text-editor[data-grammar="source go"]:not(.mini)':
   'alt-shift-g': 'golang:godef'
+
+'atom-text-editor.vim-mode:not(.insert-mode)':
+  'ctrl-f': 'unset!'

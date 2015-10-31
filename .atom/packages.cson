@@ -11,4 +11,5 @@ packages: [
   "monokai"
   "package-sync"
   "save-session"
+  "vim-mode"
 ]

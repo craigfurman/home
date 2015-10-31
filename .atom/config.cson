@@ -38,3 +38,5 @@
     highlightBackground: true
   whitespace: {}
   "linter-jshint": {}
+  "vim-mode":
+    useClipboardAsDefaultRegister: true
