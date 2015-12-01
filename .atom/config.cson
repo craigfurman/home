@@ -13,7 +13,6 @@
     fontSize: 18
     backUpBeforeSaving: true
     fontFamily: "Inconsolata"
-    tabLength: 4
   "atom-beautify":
     css_newline_between_rules: true
     css_preserve_newlines: true
