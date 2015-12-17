@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/craig/unity-startup-scripts/reduce-mouse-sensitivity.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_GB]=Reduce Mouse Sensitivity
+Name=Reduce Mouse Sensitivity
+Comment[en_GB]=Reduce sensitivity for Razer desktop mouse
+Comment=Reduce sensitivity for Razer desktop mouse
