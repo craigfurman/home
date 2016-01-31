@@ -98,4 +98,6 @@ setopt interactivecomments
 eval "$(direnv hook zsh)"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-[ -f ~/.local-quirks.zsh ] && source ~/.local-quirks.zsh
+if [ -f ~/.local-quirks.zsh ]; then
+  . ~/.local-quirks.zsh
+fi
