@@ -18,7 +18,6 @@
     css_preserve_newlines: true
     css_selector_separator_newline: true
     html_end_with_newline: true
-    language_go_beautify_on_save: true
     language_html_beautify_on_save: true
     language_css_beautify_on_save: true
     language_js_beautify_on_save: true
@@ -26,6 +25,7 @@
     language_ruby_beautify_on_save: true
     _analyticsUserId: "d204febf-1a64-4d12-a2b1-4822a9190f70"
     js_end_with_newline: true
+    language_go_disabled: true
   autosave:
     enabled: true
   "autocomplete-plus": {}
