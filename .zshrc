@@ -51,7 +51,7 @@ plugins=(git chruby go)
 
 # Go
 . ~/git-apps/whichgo/whichgo.sh
-whichgo use go1.5.3
+whichgo use go1.6
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$PATH
 
