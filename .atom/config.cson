@@ -29,15 +29,7 @@
   "exception-reporting":
     userId: "9ea00bc3-8b6e-0080-5d5c-45abcb2994c8"
   "go-plus": {}
-  "gometalinter-linter":
-    args: [
-      "--vendor"
-      "--fast"
-      "--errors"
-      "--json"
-      "--tests"
-      "./..."
-    ]
+  "gometalinter-linter": {}
   "highlight-selected":
     highlightBackground: true
   "linter-jshint": {}

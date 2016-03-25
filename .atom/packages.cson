@@ -2,6 +2,7 @@ packages: [
   "atom-beautify"
   "atom-bootstrap3"
   "autocomplete-go"
+  "builder-go"
   "color-picker"
   "emmet"
   "environment"
