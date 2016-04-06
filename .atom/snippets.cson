@@ -19,3 +19,20 @@
 # If you are unfamiliar with CSON, you can read more about it in the
 # Atom Flight Manual:
 # https://atom.io/docs/latest/using-atom-basic-customization#cson
+
+'.source.go':
+  'ginkgo.it':
+    'prefix': 'it'
+    'body': 'It("$1", func() {\n$2\n})'
+  'ginkgo.context':
+    'prefix': 'con'
+    'body': 'Context("$1", func() {\n$2\n})'
+  'ginkgo.describe':
+    'prefix': 'desc'
+    'body': 'Describe("$1", func() {\n$2\n})'
+  'ginkgo.beforeeach':
+    'prefix': 'bef'
+    'body': 'BeforeEach(func() {\n$1\n})'
+  'ginkgo.aftereach':
+    'prefix': 'aft'
+    'body': 'AfterEach(func() {\n$1\n})'
