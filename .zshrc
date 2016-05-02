@@ -50,10 +50,8 @@ plugins=(git chruby go)
 # User configuration
 
 # Go
-. ~/git-apps/whichgo/whichgo.sh
-whichgo use go1.6.1
 export GOPATH=$HOME/go
-export PATH=$GOPATH/bin:$PATH
+export PATH=$GOPATH/bin:/usr/local/go/bin:$PATH
 
 source $ZSH/oh-my-zsh.sh
 
