@@ -34,6 +34,7 @@
     highlightBackground: true
   "linter-jshint": {}
   "package-sync":
+    createOnChange: true
     forceOverwrite: true
   "vim-mode":
     useClipboardAsDefaultRegister: true
