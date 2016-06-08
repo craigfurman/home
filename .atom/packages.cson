@@ -4,6 +4,7 @@ packages: [
   "autocomplete-go"
   "builder-go"
   "color-picker"
+  "dash"
   "emmet"
   "environment"
   "go-config"
