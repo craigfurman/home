@@ -10,6 +10,7 @@
 	lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
 	di = diff
 	ds = diff --staged
+	pullsubs = submodule update --init --recursive
 [push]
 	default = simple
 [transfer]
