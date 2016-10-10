@@ -36,6 +36,9 @@
   "package-sync":
     createOnChange: true
     forceOverwrite: true
+  "tester-go":
+    coverageHighlightMode: "disabled"
+    runTestsOnSave: false
   "vim-mode":
     useClipboardAsDefaultRegister: true
   welcome:
