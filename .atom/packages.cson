@@ -22,7 +22,6 @@ packages: [
   "linter-jshint"
   "monokai"
   "navigator-go"
-  "navigator-godef"
   "package-sync"
   "tester-go"
   "vim-mode"
