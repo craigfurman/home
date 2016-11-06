@@ -16,6 +16,7 @@
   autosave:
     enabled: true
   core:
+    telemetryConsent: "no"
     themes: [
       "one-dark-ui"
       "monokai"
