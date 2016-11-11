@@ -17,6 +17,7 @@ packages: [
   "gorename"
   "highlight-selected"
   "language-docker"
+  "language-terraform"
   "last-cursor-position"
   "linter"
   "linter-jshint"
