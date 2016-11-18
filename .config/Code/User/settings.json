@@ -1,0 +1,8 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontFamily": "'Inconsolata', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
+    "editor.fontSize": 16,
+    "editor.tabSize": 2,
+    "files.insertFinalNewline": true,
+    "editor.wordWrap": true
+  }
