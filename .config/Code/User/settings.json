@@ -3,5 +3,6 @@
     "editor.fontSize": 16,
     "editor.tabSize": 2,
     "files.insertFinalNewline": true,
+    "files.autoSave": "onFocusChange",
     "editor.wordWrap": true
   }
