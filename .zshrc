@@ -68,7 +68,7 @@ export PATH=$HOME/bin:$PATH
 # else
 #   export EDITOR='mvim'
 # fi
-export EDITOR=vim
+export EDITOR=nvim
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -84,6 +84,7 @@ export EDITOR=vim
 alias ll="ls -laHh"
 alias clip='xclip -sel clip'
 alias idea="/opt/intellij/bin/idea.sh > /dev/null 2>&1 &|"
+alias vim=nvim
 
 alias go-rebuild="go list -f '{{join .Deps \"\n\"}}' ./... |  xargs go list -f '{{if not .Standard}}{{.ImportPath}}{{end}}' | xargs go install -a"
 go-rebuild-all-binaries() {
