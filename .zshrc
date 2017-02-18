@@ -83,7 +83,6 @@ export EDITOR=vim
 
 alias ll="ls -laHh"
 alias clip='xclip -sel clip'
-alias tmux="tmux -2"
 alias idea="/opt/intellij/bin/idea.sh > /dev/null 2>&1 &|"
 
 alias go-rebuild="go list -f '{{join .Deps \"\n\"}}' ./... |  xargs go list -f '{{if not .Standard}}{{.ImportPath}}{{end}}' | xargs go install -a"
