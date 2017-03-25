@@ -57,7 +57,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Binaries
 export PATH=/usr/lib/chromium-browser:$PATH
-export PATH=$HOME/bin:$PATH
+export PATH=$HOME/bin:$HOME/.local/bin:$PATH
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
