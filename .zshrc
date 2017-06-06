@@ -45,13 +45,17 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git chruby go)
+plugins=(git chruby go rust)
 
 # User configuration
 
 # Go
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:/usr/local/go/bin:$PATH
+
+if [ -f ~/.cargo/env ]; then
+  source ~/.cargo/env
+fi
 
 source $ZSH/oh-my-zsh.sh
 
